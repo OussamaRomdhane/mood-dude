@@ -1,0 +1,19 @@
+
+beige.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+alienBeige_walk1
+  rotate: false
+  xy: 2, 2
+  size: 40, 56
+  orig: 40, 56
+  offset: 0, 0
+  index: -1
+alienBeige_walk2
+  rotate: false
+  xy: 44, 2
+  size: 40, 56
+  orig: 40, 56
+  offset: 0, 0
+  index: -1

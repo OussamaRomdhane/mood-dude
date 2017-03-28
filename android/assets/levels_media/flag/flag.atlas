@@ -1,0 +1,19 @@
+
+flag.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+flagBlue
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+flagBlue2
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

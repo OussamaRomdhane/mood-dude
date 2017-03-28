@@ -1,0 +1,19 @@
+
+enemy.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+flyFly1
+  rotate: false
+  xy: 2, 2
+  size: 72, 36
+  orig: 72, 36
+  offset: 0, 0
+  index: -1
+flyFly2
+  rotate: false
+  xy: 76, 7
+  size: 75, 31
+  orig: 75, 31
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="10" tilewidth="32" tileheight="32" nextobjectid="50">
+ <tileset firstgid="1" name="bricks" tilewidth="32" tileheight="32">
+  <tile id="0">
+   <image width="32" height="32" source="bricks/brick01.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="bricks/brick01a.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="bricks/brick01b.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="bricks/brick01c.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="bricks/brick02.png"/>
+  </tile>
+  <tile id="5">
+   <image width="32" height="32" source="bricks/brick02a.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="bricks/brick02b.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="bricks/brick02c.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="bricks/brick03.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="bricks/brick03b.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="bricks/brick04.png"/>
+  </tile>
+  <tile id="11">
+   <image width="32" height="32" source="bricks/brick04b.png"/>
+  </tile>
+  <tile id="12">
+   <image width="32" height="32" source="bricks/brick05.png"/>
+  </tile>
+  <tile id="13">
+   <image width="32" height="32" source="bricks/brick05b.png"/>
+  </tile>
+  <tile id="14">
+   <image width="32" height="32" source="bricks/brick06.png"/>
+  </tile>
+  <tile id="15">
+   <image width="32" height="32" source="bricks/brick06b.png"/>
+  </tile>
+  <tile id="16">
+   <image width="32" height="32" source="bricks/brick07.png"/>
+  </tile>
+  <tile id="17">
+   <image width="32" height="32" source="bricks/brick07b.png"/>
+  </tile>
+  <tile id="18">
+   <image width="32" height="32" source="bricks/brick08.png"/>
+  </tile>
+  <tile id="19">
+   <image width="32" height="32" source="bricks/brick08b.png"/>
+  </tile>
+  <tile id="20">
+   <image width="32" height="32" source="bricks/brick08c.png"/>
+  </tile>
+  <tile id="21">
+   <image width="32" height="32" source="bricks/brick08d.png"/>
+  </tile>
+  <tile id="22">
+   <image width="32" height="32" source="bricks/brick09.png"/>
+  </tile>
+  <tile id="23">
+   <image width="32" height="32" source="bricks/brick09b.png"/>
+  </tile>
+  <tile id="24">
+   <image width="32" height="32" source="bricks/brick09c.png"/>
+  </tile>
+  <tile id="25">
+   <image width="32" height="32" source="bricks/brick09d.png"/>
+  </tile>
+  <tile id="26">
+   <image width="32" height="32" source="bricks/brick10.png"/>
+  </tile>
+  <tile id="27">
+   <image width="32" height="32" source="bricks/brick10b.png"/>
+  </tile>
+  <tile id="28">
+   <image width="32" height="32" source="bricks/brick10c.png"/>
+  </tile>
+  <tile id="29">
+   <image width="32" height="32" source="bricks/brick10d.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="31" name="background" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="bg_grasslands.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="496" name="boosts" tilewidth="32" tileheight="32">
+  <tile id="0">
+   <image width="32" height="32" source="boosts/beige.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="boosts/blue.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="boosts/green.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="boosts/red.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="boosts/yellow.png"/>
+  </tile>
+ </tileset>
+ <layer name="background" width="80" height="10">
+  <data encoding="base64" compression="zlib">
+   eJzdzfebyAUAwOG7SntqSCVlN5SKSigSsko00aJlpaVoaamUQlQKEZH2IOP2ndt33HF77z1UiBL1/h3f5/m8P3/CQkJCwokgkiiiiSGWOLYTTwKJJJFMCqmkkc4OdpJBJrvYTRbZ5JBLHvmEBeBdQCFFFFNCKWWUU0ElVVRTQy111NNAI00000Ire/idP/iTvexjP39xICDvg/zNPxziXw5zhP8ICRVHcTTH0IZjOY7jOYETOYmTOYVTOY3TOYO2nMlZnM05ocF4t+Nc2nMe53MBHbiQjlzExXSiM13oSje604NLuJTLuJyeXMGV9OIqruYaetMnIO9ruY7r6csN9KM/A7iRmxjIIG5mMLcwhKEM41aGM4KRjGI0t3E7Y7iDsYzjzoC87+Ju7uFe7mM8E5jI/TzAgzzEw0xiMo/wKI/xOE8whalMYzozeJKZPMXTPMOzAXk/xyye5wVmM4cXeYmXeYVXmctrvM4bvMlbzONt3uFd5vMe77OAD/iQhSxiMR8F5L2EpXzMJ3zKMj7jc5azgpV8wSpW8yVrWMtXrGM9X7OBb/iW7/ieH/iRn/iZXwLy/pWNbOI3NrOFrWwjjHAiiCSKaGKIJY7txJNAIkkkk0IqaaSzg51kkBmQ9y52k0U2OeSSRz4FFFJEMSWUUkY5FVRSRTU11FJHPQ000kQzLbSyJyDv/wFQoL32
+  </data>
+ </layer>
+ <layer name="env" width="80" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+  </data>
+ </layer>
+ <layer name="red" width="80" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSigPZDBgkcBdYA0Gh4Fo2CwAGz5HgBlJQGF
+  </data>
+ </layer>
+ <layer name="blue" width="80" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBdiAOBLGJoYPU9vewQ4kkDAMSCJheoKBspcSgM3NwzX8AOOOAzA=
+  </data>
+ </layer>
+ <layer name="green" width="80" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaOAeCCMhAcaDCa3EAtEkTA5QJhEjE0ftdxCDgAA+nsCDg==
+  </data>
+ </layer>
+ <layer name="beige" width="80" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+  </data>
+ </layer>
+ <layer name="yellow" width="80" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAA+BgyAAAE=
+  </data>
+ </layer>
+ <layer name="normal" width="80" height="10">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAIA7A5wL9bjhkg3G3SBAAAuJpnagH9rADT
+  </data>
+ </layer>
+ <objectgroup name="player"/>
+ <objectgroup name="red_boost">
+  <object id="49" x="1759" y="184">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="blue_boost">
+  <object id="35" x="640" y="200">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="yellow_boost"/>
+ <objectgroup name="beige_boost"/>
+ <objectgroup name="final_zone">
+  <object id="26" x="2293.45" y="-72.3261" width="7" height="344"/>
+ </objectgroup>
+ <objectgroup name="flag">
+  <object id="27" x="2284.78" y="196.341" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="begin-enemy-0">
+  <object id="32" x="0" y="265"/>
+ </objectgroup>
+ <objectgroup name="end-enemy-0">
+  <object id="33" x="475" y="265"/>
+ </objectgroup>
+ <objectgroup name="begin-enemy-1">
+  <object id="37" x="1000" y="275"/>
+ </objectgroup>
+ <objectgroup name="end-enemy-1">
+  <object id="36" x="1425" y="275"/>
+ </objectgroup>
+ <objectgroup name="begin-enemy-2">
+  <object id="38" x="985" y="200"/>
+ </objectgroup>
+ <objectgroup name="end-enemy-2">
+  <object id="39" x="1325" y="200"/>
+ </objectgroup>
+ <objectgroup name="begin-enemy-3">
+  <object id="44" x="2150" y="195"/>
+ </objectgroup>
+ <objectgroup name="end-enemy-3">
+  <object id="43" x="2400" y="195"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="background" tilewidth="32" tileheight="32">
+  <image source="levels_media/blue_desert.png" width="1024" height="1024"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwNw3c2FwAAAOAf7xFSioYLNIiWVBeopEkqF6A9KHSBJhVSXKCMSpHGBey9XcD42Zs/+773vuaQQKDFVttst8NOu+y2x1777HfAQYccdsRRxxx3wkmnDDrtjLPOOe+Ciy657IqrrrnuhpuGhQYC4W4xwkij3Gq029xujDvcaaxx7nK3e9xrvPvc7wEPmmCih0wy2cMe8ajHPG6KJ0z1pKc87RnPes40z5vuBS96ycte8aoZZnrNLK97w5tmm2Out7ztHe96z/s+8KGPfGye+T7xqQUWWuQzn/vCl77ytW8stsS3vvO9pZZZ7gcr/OgnK63ys1+stsZa6/zqN79b7w9/2mCjv2zyt3/86z+bbbHVNtvtsNMuu+2x1z77HXDQIYcdcdQxx51w0imDTjvjrHPOu+CiSy674qprrrvhpv8B8bNzPQ==
+  </data>
+ </layer>
+</map>

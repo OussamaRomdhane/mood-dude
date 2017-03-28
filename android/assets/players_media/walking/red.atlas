@@ -1,0 +1,19 @@
+
+red.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+alienPink_walk1
+  rotate: false
+  xy: 2, 2
+  size: 40, 56
+  orig: 40, 56
+  offset: 0, 0
+  index: -1
+alienPink_walk2
+  rotate: false
+  xy: 44, 2
+  size: 40, 56
+  orig: 40, 56
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32" nextobjectid="12">
+ <tileset firstgid="1" name="background" tilewidth="32" tileheight="32">
+  <image source="bg_grasslands.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="513" name="tiles" tilewidth="64" tileheight="32">
+  <tile id="0">
+   <image width="32" height="32" source="bricks/brick09.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="bricks/brick09b.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="bricks/brick09c.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="bricks/brick09d.png"/>
+  </tile>
+  <tile id="4">
+   <image width="32" height="32" source="bricks/cactus.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="32" source="bricks/cloud1.png"/>
+  </tile>
+  <tile id="6">
+   <image width="32" height="32" source="bricks/plant.png"/>
+  </tile>
+  <tile id="7">
+   <image width="32" height="32" source="bricks/rock.png"/>
+  </tile>
+  <tile id="8">
+   <image width="32" height="32" source="bricks/brick06.png"/>
+  </tile>
+  <tile id="9">
+   <image width="32" height="32" source="bricks/grey_boxTick.png"/>
+  </tile>
+  <tile id="10">
+   <image width="32" height="32" source="bricks/grey_circle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="524" name="background2" tilewidth="32" tileheight="32">
+  <image source="bg_castle.png" width="1024" height="512"/>
+ </tileset>
+ <layer name="background" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwNw4UxBQAAANB/LKCbGXQzg25m0M0MupkBX8ef4es2g27Oe3dvNSIQWHPdoBtuuuW2O+66574HHhoy7JHHnnjqmedeeOmV19546533Pvjok8+++Oqb73746Zff/vjrn1GRgUC0McYaZ7wJJppksimmmma6GWaaZbY55ppnvgUWWmSxJZZaZrkVVlpltTXWWme9DTbaZLMtttpmux122mW3PfbaZ78DDjrksCOOOua4E0465bQzzjrnvAsuuuSyK6665rpBN9x0y2133HXPfQ88NGTYI4898dQzz73w0iuvvfHWO+/9B2ZjWDA=
+  </data>
+ </layer>
+ <layer name="ground" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowA74GQiHwMAFtoApg==
+  </data>
+ </layer>
+ <objectgroup name="limits">
+  <object id="4" x="0" y="1" width="1.66667" height="318"/>
+  <object id="11" x="477.333" y="1" width="1.66667" height="318"/>
+ </objectgroup>
+ <objectgroup name="jump">
+  <object id="7" x="231" y="237" width="6" height="83"/>
+ </objectgroup>
+ <layer name="index" width="15" height="10" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A0wM3EwMDFBKFxAQAHEgAn
+  </data>
+ </layer>
+</map>
